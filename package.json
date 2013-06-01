@@ -1,0 +1,11 @@
+{
+  "author": "Henrik Joreteg <henrik@andyet.net>",
+  "name": "imageToDataURI",
+  "description": "Clientside module (compatible with clientmodules) that takes an image url, downloads the image and creates a data URI for caching, etc.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/henrikjoreteg/imageToDataUri.js.git"
+  },
+  "main": "./imageToDataURI.js"
+}

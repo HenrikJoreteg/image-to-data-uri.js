@@ -38,11 +38,10 @@ imageToURI('http://something.com/some-image.png', function (err, uri) {
 
 ```
 
+## Feedback
+
+If you dig it, follow [@HenrikJoreteg](http://twitter.com/henrikjoreteg) on the twitterwebs. If not, file issues or send pull requests :)
+
 ## License
 
 MIT
-
-
-## Props
-
-If you dig it, follow [@HenrikJoreteg](http://twitter.com/henrikjoreteg) on the twitterwebs.
