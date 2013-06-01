@@ -1,4 +1,4 @@
-# imageToDataURI
+# image-to-data-uri
 
 Clientside module (compatible with [clientmodules](https://github.com/henrikjoreteg/clientmodules) and [browserify](https://github.com/substack/node-browserify)) that takes an image url, downloads the image and creates a [data URI](https://developer.mozilla.org/en-US/docs/data_URIs).
 
@@ -15,7 +15,7 @@ So instead, we run it through this little tool and cache the resulting data URI 
 ## Installing
 
 ```
-npm i imageToDataURI
+npm i image-to-data-uri
 ```
 
 Add it to your clientmodules or user browserify to include it in your app. voila!
@@ -24,7 +24,7 @@ Add it to your clientmodules or user browserify to include it in your app. voila
 ## Using
 
 ```js
-var imageToURI = require('imageToDataURI');
+var imageToURI = require('image-to-data-uri');
 
 imageToURI('http://something.com/some-image.png', function (err, uri) {
     if (!err) {
