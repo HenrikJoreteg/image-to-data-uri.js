@@ -24,7 +24,7 @@ module.exports = function (url, cb) {
 
     // canvas is not supported
     if (!canvas.getContext) {
-        cb(new Error('CanvasIsNotSupported'));
+        setTimeout(cb, 0, new Error('CanvasIsNotSupported'));
     } else {
         img.src = url;
     }
