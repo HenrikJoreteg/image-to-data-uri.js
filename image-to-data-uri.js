@@ -15,7 +15,7 @@ module.exports = function (url, cb) {
         ctx.drawImage(img, 0, 0);
 
         // Get the data-URI formatted image
-        cb(canvas.toDataURL('image/png'));
+        cb(null, canvas.toDataURL('image/png'));
     };
 
     img.ononerror = function () {
