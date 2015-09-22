@@ -2,8 +2,13 @@
   "author": "Henrik Joreteg <henrik@andyet.net>",
   "name": "image-to-data-uri",
   "description": "Clientside module (compatible with clientmodules) that takes an image url, downloads the image and creates a data URI for caching, etc.",
-  "version": "0.0.1",
-  "tags": ["browser", "clientmodules", "images", "canvas"],
+  "version": "1.0.0",
+  "tags": [
+    "browser",
+    "clientmodules",
+    "images",
+    "canvas"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/henrikjoreteg/image-to-data-uri.js.git"
