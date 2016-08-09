@@ -26,6 +26,7 @@ module.exports = function (url, cb) {
     if (!canvas.getContext) {
         setTimeout(cb, 0, new Error('CanvasIsNotSupported'));
     } else {
+        img.setAttribute('crossOrigin', 'anonymous')
         img.src = url;
     }
 };
