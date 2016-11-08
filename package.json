@@ -2,7 +2,7 @@
   "author": "Henrik Joreteg <henrik@andyet.net>",
   "name": "image-to-data-uri",
   "description": "Clientside module (compatible with clientmodules) that takes an image url, downloads the image and creates a data URI for caching, etc.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "tags": [
     "browser",
     "clientmodules",
